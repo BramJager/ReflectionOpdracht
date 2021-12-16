@@ -10,9 +10,6 @@ namespace ReflectionOpdracht
         {
             string assemblyPath = @"C:\Users\Bram Jager\Desktop\ReflectThis.dll";
 
-            string username = "Henk";
-            string password = "password";
-
             UserAssemblyService service = new UserAssemblyService();
 
             service.WriteAssemblyInfoToConsole(assemblyPath);
@@ -21,7 +18,7 @@ namespace ReflectionOpdracht
 
             var managerInstance = service.CreateUserManagerInstance(assembly);
 
-            service.LogInUser(username, password, managerInstance, assembly);
+            service.LogInUser("Henk", "testing", managerInstance, assembly);
             service.WriteNumberOfLoggedInUsers(assembly, managerInstance);
             Console.WriteLine();
 
@@ -29,11 +26,11 @@ namespace ReflectionOpdracht
             service.WriteNumberOfLoggedInUsers(assembly, managerInstance);
             Console.WriteLine();
 
-            service.LogOfUser(username, assembly, managerInstance);
+            service.LogOfUser("Henk", assembly, managerInstance);
             service.WriteNumberOfLoggedInUsers(assembly, managerInstance);
             Console.WriteLine();
 
-            service.WriteLogInTestSequenceToConsole(username, password, assembly);
+            service.WriteLogInTestSequenceToConsole("Henk", "testing", assembly);
 
         }
     }
