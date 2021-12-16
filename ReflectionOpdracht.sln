@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.31903.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionOpdracht", "ReflectionOpdracht\ReflectionOpdracht.csproj", "{F5819537-5B08-4528-813F-D5092643B960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionOpdracht", "ReflectionOpdracht\ReflectionOpdracht.csproj", "{F5819537-5B08-4528-813F-D5092643B960}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionOpdracth.Business", "ReflectionOpdracth.Business\ReflectionOpdracth.Business.csproj", "{73F20060-8A64-44E9-91C9-5F3F08AF3953}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F5819537-5B08-4528-813F-D5092643B960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5819537-5B08-4528-813F-D5092643B960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5819537-5B08-4528-813F-D5092643B960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F20060-8A64-44E9-91C9-5F3F08AF3953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F20060-8A64-44E9-91C9-5F3F08AF3953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F20060-8A64-44E9-91C9-5F3F08AF3953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F20060-8A64-44E9-91C9-5F3F08AF3953}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
